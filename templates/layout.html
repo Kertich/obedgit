@@ -4,20 +4,23 @@
     <head>
         <title>StackOverflowLite</title>
         <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+  <!--      <link type="text/css" rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>-->
     </head>
     <body>
     <header>
         <div>
 		<table>
 			<tr id="header_content">
-				<td style="width : 900px;"><table><tr><td><img src="images/logo.png" style="height:30px; width: 30px;"></td><td><b>Stack Overflow</b></td></tr></table></td>
+				<td style="width : 900px;"><table><tr><td><img src="images/logo.png" style="height:30px; width: 30px;"></td><td><b></b>Stack Overflow</b></td></tr></table></td>
 				<td>
 					<div>
 						<form></form>
 					</div>
 				</td>
-                <td  style="height:30px; width: 100px; padding  background-image: linear-gradient(black, black);"><a href="login.html" >Login</a></td>
-                <td style="height:30px; width: 100px; padding  background-image: linear-gradient(black, black);"><a href="signup.html" >Signup</a></td>
+                <td  style="height:30px; width: 100px; padding  background-image: linear-gradient(black, black);"><a href="/login" >Login</a></td>
+                <td style="height:30px; width: 100px; padding  background-image: linear-gradient(black, black);"><a href="/signup" >Signup</a></td>
+                <td style="height:30px; width: 100px; padding  background-image: linear-gradient(black, black);"><a href="/ask_question" >Ask Question</a></td>
 			</tr>
 		</table>
         </div>
