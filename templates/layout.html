@@ -1,0 +1,210 @@
+
+<!--Stack overfoe home page--><!DOCTYPE html>
+<html>
+    <head>
+        <title>StackOverflowLite</title>
+        <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+    </head>
+    <body>
+    <header>
+        <div>
+		<table>
+			<tr id="header_content">
+				<td style="width : 900px;"><table><tr><td><img src="images/logo.png" style="height:30px; width: 30px;"></td><td><b>Stack Overflow</b></td></tr></table></td>
+				<td>
+					<div>
+						<form></form>
+					</div>
+				</td>
+                <td  style="height:30px; width: 100px; padding  background-image: linear-gradient(black, black);"><a href="login.html" >Login</a></td>
+                <td style="height:30px; width: 100px; padding  background-image: linear-gradient(black, black);"><a href="signup.html" >Signup</a></td>
+			</tr>
+		</table>
+        </div>
+    </header> 
+
+    <aside id="aside_left_fixed">
+            <div >
+                <table id="nav_aside_fixed">
+                    <tr>
+                        <td><a href="home.html">Home</a></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                            <td id="icon"><img ></td>
+                            <td>Stack Overflow</td>
+                    </tr>
+                    <tr>
+                            <td></td>
+                            <td>Tags</td>
+                    </tr>
+                    <tr>
+                            <td></td>
+                            <td>Users</td>
+                    </tr>
+                    <tr>
+                            <td></td>
+                            <td>Jobs</td>
+                    </tr>
+                    <tr>
+                            <td>
+                    <div>
+                    <div><h4>Teams</h4><p>Q&A for work</p></div>
+                    <div><img></div>
+                    <div><button></button></div>
+                </div>
+                </td>
+                    </tr>
+                    <tr>
+                            <td></td>
+                    </tr>
+                </table>
+            </div>
+        </aside>
+
+       <div class="container">
+            <aside id="container-left">
+                </aside>
+        <div id="container_center">
+            <div>
+                {% block body %} 
+                {% endblock %}
+            </div >
+        </div>
+            
+            <!--Aside container document document-->
+            <aside id="container_right">
+                <table>
+                    
+                    
+                    <tr>
+                        <td id="aside_document_1">
+                            
+                            <ul><li>Blog</li><img>Winter Bash 2018<li>FEATURED ON META</li></ul>
+                        </td>
+                    </tr>
+                   
+                   
+                    <tr>
+                            <td id="aside_document_2">
+                                    <ul><li></li><li></li></ul>
+                            </td>
+                    </tr>
+                    
+                    
+                    <tr>
+                            <td id="aside_document_3">
+                                    <ul><li></li><li></li></ul>
+                            </td>
+                    </tr>
+                    
+                    
+                    <tr>
+                            <td id="aside_document_4">
+                                    <ul><li></li><li></li></ul>
+                            </td>
+                    </tr>
+                    
+                    
+                    <tr>
+                            <td id="aside_document_7">
+                                    <ul><li></li><li></li></ul>
+                            </td>
+                    
+                    
+                    </tr>
+                    
+                    
+                    <tr>
+                            <td id="aside_document_6">
+                                    <ul><li></li><li></li></ul>
+                            </td>
+                    </tr>
+                    
+                    
+                    <tr>
+                            <td id="aside_document_7">
+                                    <ul><li></li><li></li></ul>
+                            </td>
+                    
+                    
+                        </tr>
+
+                </table>
+            </aside>
+            <footer id="container_bottom">
+                    <div>
+                        <table  id="footer">
+                            <tr>
+                                <td id="first_column"><img src="images/logo.png" style="height:30px; width: 30px;"></td>
+                                <td id="others">STACK OVERFLOW</td>
+                                <td id="others">PRODUCTS</td>
+                                <td id="others"> COMPANY</td>
+                                <td id="others">STACK EXCHANGE NETWORK</td>
+                                <td id="others">
+                                    <a>Blog</a>
+                                    <a>Facebook</a>
+                                    <a>Twitter</a>
+                                    <a>LinkedIn</a>
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td id="first_column"></td>
+                                <td>Questions</td>
+                                <td>Teams</td>
+                                <td>About</td>
+                                
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td ></td>
+                                <td>Jobs</td>
+                                <td>Talent</td>
+                                <td>Press</td>
+                                <td>Technology</td>
+                            </tr>
+                            <tr>
+                                <td ></td>
+                                <td>Developer Jobs Directory</td>
+                                <td>Engagement</td>
+                                <td>Work here</td>
+                                <td>Life / Arts</td>
+                            </tr>
+
+                            <tr>
+                                <td ></td>
+                                <td>Salary Claculator</td>
+                                <td>Enterprise</td>
+                                <td>Legal</td>
+                                <td>Culture / Recreation</td>
+                            </tr>
+                            <tr>
+                                <td ></td>
+                                <td>Help</td>
+                                <td></td>
+                                <td>Privacy Policy</td>
+                                <td>Science</td>
+                            </tr>
+                            <tr>
+                                <td ></td>
+                                <td>Mobile</td>
+                                <td></td>
+                                <td>Contact Us</td>
+                                <td>Other</td>
+                            </tr>
+                            <tr>
+                                <td ></td>
+                                <td>Disable Responsiveness</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td><p>Site design / logo @ 2018 Stack Exchange Inc: user contributions licensed under cc by-sa 3.0 with attribution required. rev 2018.12.13.32393</p></td>
+                            </tr>
+            </table>
+                    </div>
+            </footer> 
+
+    </div>
+    </body>
+</html>
